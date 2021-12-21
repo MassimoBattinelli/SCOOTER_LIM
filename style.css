@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: limegreen;
+}
+
+/* nel body ho inserito lo sfondo */
+body {
+   background: url(background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.buttons{
+  background-color: limegreen;
+  height: 45px;
+}
+
+/* questa classe identifica la row con i dati per ogni monopattino */
+.row{
+  width: 30%;
+  height: 30px;
+  border-radius: 7px;
+}
+
+#rowGino{
+  background-color: orange;
+  width: 33%;
+}
+
+#rowMike{
+  background-color: limegreen;
+  width: 52%;
+}
+
+#rowFede{
+  background-color: red;
+  width: 13%;
+}
+
+/* in questa classe ho definito bordi e colori del box */
+.border{
+  border-style: inset;
+  padding: 100px;
+  border: 1px solid black;
+  border-radius: 20px;
+  border-color: black;
+}
+
+/* in questa classe ho definito le dimensioni del box */
+.box_limiter{
+  margin: 30px;
+  margin-left: 400px;
+  margin-right: 380px;
+}
+
+/* in questa classe ho definito l'opacità del box */
+.box_background{
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* in questa classe ho definito le dimensioni del logo */
+.logo{
+  width: 25%;
+  height: auto;
+}
+
+/* in questa classe ho definito il font, colore e le grandezze del titolo dei box monopattino */
+.titolo{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+/* in questa classe ho definito font, colore e grandezze del testo dei box monopattinp */
+.testo{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
